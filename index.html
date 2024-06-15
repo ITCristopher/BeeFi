@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RurFi - Inicio de Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con el nombre de la empresa y el menú de navegación -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="ruta_a_tu_logo.png" alt="RurFi">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Otros Servicios</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección principal con el texto de introducción -->
+    <main>
+        <div class="intro-text">
+            <h1>El MEJOR INTERNET PARA EL MEJOR MUNICIPIO</h1>
+            <p>Somos una Empresa ubicada en el municipio de Rionegro - Santander, proveedora de Internet (ISP) en la zona Rural y Urbana. Diseñamos e implementamos redes de conectividad de última tecnología inalambrica, para que nuestros usuarios puedan disfrutar del mejor internet con acceso a Wifi de alto desempeño.</p>
+            <a href="#" class="cta-button">Test De Velocidad</a>
+        </div>
+    </main>
+
+    <!-- Sección de inicio de sesión -->
+    <div class="login-container">
+        <h1>Inicio de Sesión</h1>
+        <form action="login.php" method="POST">
+            <div class="form-group">
+                <label for="correo_electronico">Correo Electrónico:</label>
+                <input type="email" id="correo_electronico" name="correo_electronico" required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <div class="links">
+            <a href="register_cliente.html">Registrarse como Cliente</a>
+            <a href="register_empleado.html">Registrarse como Empleado</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
