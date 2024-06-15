@@ -8,12 +8,12 @@
 /* Estilo general del cuerpo del documento */
 body {
     font-family: Arial, sans-serif; /* Fuente principal */
-    background: linear-gradient(120deg, #65f685 0%, #85c3fd 100%); /* Fondo con degradado */
+    background: linear-gradient(120deg, #ffed4a 0%, #ffe580 100%); /* Fondo con degradado */
 }
 
 /* Encabezado y navegación */
 header {
-    background: #fff; /* Fondo blanco para el encabezado */
+    background: #f6d365; /* Fondo amarillo dorado para el encabezado */
     padding: 1em 0; /* Relleno en la parte superior e inferior */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera para el encabezado */
 }
@@ -26,9 +26,18 @@ header {
     max-width: 1200px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrado horizontal del contenedor */
 }
+/* titulo de la pagina */
+.Paginatitulo{
+    font-size: 2em; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+}
 
-.logo img {
-    height: 50px; /* Altura del logo */
+/* Estilo para hacer la imagen circular */
+.logo-img {
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
+    height: 50px; /* Asegúrate de que el alto y el ancho sean iguales para un círculo perfecto */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente dentro del contenedor */
 }
 
 nav ul {
@@ -47,7 +56,7 @@ nav ul li a {
 main {
     padding: 2em 0; /* Relleno en la parte superior e inferior */
     text-align: center; /* Texto centrado */
-    background: #3f8fe4; /* Fondo azul */
+    background: #ffb83c; /* Fondo dorado */
     color: #fff; /* Texto blanco */
 }
 
@@ -62,7 +71,7 @@ main {
 }
 
 .cta-button {
-    background: #fda085; /* Fondo del botón */
+    background: #f6d365; /* Fondo del botón */
     color: #fff; /* Color del texto del botón */
     padding: 0.8em 2em; /* Relleno interno del botón */
     border-radius: 4px; /* Bordes redondeados del botón */
@@ -72,7 +81,7 @@ main {
 }
 
 .cta-button:hover {
-    background: #f6d365; /* Color de fondo del botón al pasar el ratón */
+    background: #ffb83c; /* Color de fondo del botón al pasar el ratón */
 }
 
 /* Estilo del contenedor principal de los formularios */
@@ -121,7 +130,7 @@ button {
     padding: 0.7em; /* Relleno interno */
     border: none; /* Sin borde */
     border-radius: 4px; /* Bordes redondeados */
-    background-color: #fda085; /* Color de fondo */
+    background-color: #f6d365; /* Color de fondo */
     color: white; /* Color del texto */
     font-size: 1em; /* Tamaño de la fuente */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
@@ -130,7 +139,7 @@ button {
 
 /* Estilo del botón al pasar el ratón por encima */
 button:hover {
-    background-color: #f6d365; /* Cambia el color de fondo */
+    background-color: #ffb83c; /* Cambia el color de fondo */
 }
 
 /* Estilo del contenedor de enlaces */
@@ -141,12 +150,5 @@ button:hover {
 
 /* Estilo de los enlaces */
 .links a {
-    color: #fda085; /* Color del texto */
-    text-decoration: none; /* Sin subrayado */
-    margin: 0 0.5em; /* Espacio lateral */
-}
-
-/* Estilo de los enlaces al pasar el ratón por encima */
-.links a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón */
+    color: #f6d365; /* Color del texto */
 }
